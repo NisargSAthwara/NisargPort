@@ -5,7 +5,7 @@ import ContactForm from "@/components/ContactForm";
 const Contact = () => {
   return (
     <Layout>
-      <div className="max-w-4xl">
+      <div className="w-full">
         <div className="flex items-center gap-2 mb-6">
           <span className="text-4xl">✉️</span>
           <h1 className="text-4xl font-bold">Contact Me</h1>

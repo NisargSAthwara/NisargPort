@@ -48,7 +48,7 @@ const Sidebar = () => {
   const currentPath = location.pathname;
 
   return (
-    <aside className="w-64 min-h-screen bg-gray-50 border-r border-gray-200 fixed left-0 top-0 bottom-0 overflow-y-auto">
+    <aside className="w-64 min-h-screen bg-gray-50 border-r border-gray-200 fixed left-0 top-0 bottom-0">
       <Profile
         name="Your Name"
         role="Developer"

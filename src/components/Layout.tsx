@@ -11,8 +11,10 @@ const Layout = ({ children }: LayoutProps) => {
     <div className="flex min-h-screen bg-white">
       <Sidebar />
       <div className="flex flex-col flex-1 ml-64">
-        <main className="flex-grow p-8">
-          {children}
+        <main className="flex-grow p-8 flex justify-center">
+          <div className="w-full max-w-4xl px-4">
+            {children}
+          </div>
         </main>
         <footer className="text-center text-gray-500 text-sm py-4 bg-white">
           2025 — Built by Your Name
