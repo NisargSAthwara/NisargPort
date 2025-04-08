@@ -6,22 +6,22 @@ import ProjectCard from "@/components/ProjectCard";
 const Index = () => {
   const featuredProjects = [
     {
-      title: "ShopKaro",
-      description: "ShopKaro provides a smooth shopping experience with effortless scrolling, secure COD checkout, and email notifications for order updates.",
+      title: "AI vs Real - Image Classification Web App",
+      description: "AI vs Real is an intelligent image classification platform that detects whether an image is AI-generated or real. Built with deep learning and a modern UI, the app enables users to upload images and instantly get classification results using a trained convolutional neural network (CNN) model.",
+      imageUrl: "/lovable-uploads/49bab6f1-576c-462c-870b-297fb1a309b0.png",
+      technologies: ["React", "TensorFlow", "CNN", "Vite"],
+    },
+    {
+      title: "House Price Predictor",
+      description: "House Price Predictor is a data-driven web app that estimates property prices based on key features like location, area, number of rooms, and amenities. It uses a trained regression model to deliver accurate and real-time predictions for buyers and real estate professionals.",
       imageUrl: "/lovable-uploads/ea9efcd7-87db-4bfe-a5f3-69c07770eb02.png",
-      technologies: ["Next.js", "TailwindCSS", "Sanity"],
+      technologies: ["Python", "Flask", "Regression"],
     },
     {
-      title: "Free Resume Builder",
-      description: "FreeResumeBuilder allows users to create professional resumes with customizable templates, instant preview, and free downloads.",
-      imageUrl: "/lovable-uploads/efb2cb6c-e9cd-4f52-9c6f-deb67567ce8d.png",
-      technologies: ["Next.js", "TailwindCSS", "MongoDB"],
-    },
-    {
-      title: "Blogafay",
-      description: "Blogafay is a full-stack blog website with admin controls for post management and an interactive comment system for readers, hosted on Vercel for seamless performance.",
-      imageUrl: "/lovable-uploads/9561c7e8-0602-4193-9583-d7fa097e8890.png",
-      technologies: ["Next.js", "TailwindCSS", "MongoDB"],
+      title: "Cloud Forecast - Weather Visualizer",
+      description: "Cloud Forecast is a lightweight React app that visualizes cloud cover and weather conditions using live API data. With a clean UI and real-time updates, users can check cloud forecasts for any location instantly—no backend required.",
+      imageUrl: "/lovable-uploads/ea9efcd7-87db-4bfe-a5f3-69c07770eb02.png", 
+      technologies: ["React", "Tailwind CSS", "OpenWeatherMap API"],
     },
   ];
 
@@ -31,16 +31,15 @@ const Index = () => {
         <div className="mb-16">
           <div className="flex items-center gap-2 mb-3">
             <span className="text-4xl">👋</span>
-            <h1 className="text-4xl font-bold">Hello there! I'm Your Name</h1>
+            <h1 className="text-4xl font-bold">Hello there! I'm Nisarg Sathwara</h1>
           </div>
           <p className="text-xl text-gray-600 mb-3">
-            I'm a full-stack developer that loves building products and web apps that
-            can impact millions of lives
+          I'm an AI/ML engineer passionate about building intelligent systems and machine learning solutions that can impact millions of lives.
           </p>
           <p className="text-xl text-gray-600">
-            I'm a student leader at GIAC with a strong passion for innovation, building
-            scalable and user-centric web apps that blend performance optimization
-            with stunning design.
+            I'm a student at GECM with a strong passion for innovation, building
+            scalable and user-centric web apps  and AI that blend performance optimization
+            with real-world impact.
           </p>
         </div>
         
@@ -66,13 +65,22 @@ const Index = () => {
         <div className="mt-12">
           <h2 className="text-2xl font-bold mb-6">Tech Stack</h2>
           <div className="flex flex-wrap gap-6 items-center">
-            <div className="text-gray-700">Next.js</div>
-            <div className="text-gray-700">AWS</div>
-            <div className="text-gray-700">Firebase</div>
-            <div className="text-gray-700">Motion</div>
-            <div className="text-gray-700">Node.js</div>
-            <div className="text-gray-700">TailwindCSS</div>
-            <div className="text-gray-700">Vercel</div>
+           {/* <div className="text-gray-700">AI-ML</div>
+            <div className="text-gray-700">Python</div>
+            <div className="text-gray-700">SQL</div>
+            <div className="text-gray-700"></div>
+            <div className="text-gray-700">Html/CSS/Javascript</div>
+            <div className="text-gray-700">PowerBi(Basic)</div>
+            <div className="text-gray-700">Vercel</div>  */}
+            <img src="../public/lovable-uploads/Python.svg" alt="Python" className="h-8" />
+            <img src="../public/lovable-uploads/MySQL.svg" alt="MySQL" className="h-8" />
+            <img src="../public/lovable-uploads/React.svg" alt="React.js" className="h-8" />
+            <img src="../public/lovable-uploads/HTML5.svg" alt="HTML" className="h-8" />
+            <img src="../public/lovable-uploads/CSS3.svg" alt="CSS" className="h-8" />
+            <img src="../public/lovable-uploads/JavaScript.svg" alt="JavaScript" className="h-8" />
+            <img src="../public/lovable-uploads/Bootstrap.svg" alt="Bootstrap" className="h-8" />
+            <img src="../public/lovable-uploads/power-bi.svg" alt="Power Bi(Basic)" className="h-8" />
+            <img src="../public/lovable-uploads/vercel.svg" alt="Vercel" className="h-8" />
           </div>
         </div>
       </section>

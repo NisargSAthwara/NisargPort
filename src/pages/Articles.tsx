@@ -5,22 +5,22 @@ import ArticleCard from "@/components/ArticleCard";
 const Articles = () => {
   const articles = [
     {
-      title: "Integrating Sanity with Next.js: A Guide to Data Import and Environment Setup",
-      description: "In this blog post, we'll walk through the process of integrating Sanity with an existing Next.js project, focusing on setting up environmental variables, creating a Sanity schema, and importing data from an external API. This guide assumes you already have a Next.js project set up and Sanity installed.",
-      imageUrl: "/lovable-uploads/489b7e4e-3a5c-4b94-aac8-1f63d523e2d4.png",
-      tags: ["technology", "Next.JS", "Sanity", "API"],
-    },
-    {
       title: "The Rise of Artificial Intelligence: Shaping the Future",
       description: "Artificial Intelligence (AI) is transforming the way we live, work, and interact with technology. At its core, AI refers to the simulation of human intelligence in machines that are programmed to think, learn, and make decisions.",
       imageUrl: "/lovable-uploads/1c7468fd-56a3-410a-8ba4-20fa6281c289.png",
       tags: ["AI", "technology"],
     },
     {
-      title: "Next.js 15: Optimized Performance with React 19 🚀",
-      description: "Discover Next.js 15's key features, including React 19 compatibility, Partial Pre-Rendering, advanced caching, TurboPack integration, and enhanced hydration error handling! 🧠 ✨",
+      title: "Training a CNN with Keras: Image Classification Made Easy",
+      description: "Dive into how convolutional neural networks work and build your first image classifier with Keras and TensorFlow.",
+      imageUrl: "/lovable-uploads/489b7e4e-3a5c-4b94-aac8-1f63d523e2d4.png",
+      tags: ["technology", "TensorFlow","Deep Learning", "CNN"],
+    },
+    {
+      title: "Integrating a Machine Learning Model into a React App 🚀",
+      description: "How to run predictions from a trained model using a React frontend and Flask or FastAPI backend. 🧠 ✨",
       imageUrl: "/lovable-uploads/1c7468fd-56a3-410a-8ba4-20fa6281c289.png",
-      tags: ["technology", "development", "Next.JS"],
+      tags: ["technology", "development", "API Integration"],
     },
   ];
 

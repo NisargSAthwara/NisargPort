@@ -12,22 +12,22 @@ const About = () => {
 
         <div className="grid grid-cols-4 gap-4 mb-12">
           <img 
-            src="/lovable-uploads/12f54e7c-c37a-41f9-a171-f9f977dbc61a.png" 
+            src="/lovable-uploads/anime.jpg" 
             alt="Aesthetic photo 1" 
             className="w-full h-56 object-cover rounded-lg"
           />
           <img 
-            src="/lovable-uploads/118cbb20-90e6-45b9-92ec-04502a9d761b.png" 
+            src="/lovable-uploads/robot.jpg" 
             alt="Aesthetic photo 2" 
             className="w-full h-56 object-cover rounded-lg"
           />
           <img 
-            src="/lovable-uploads/1ab2cc5f-6b56-4b37-8f9c-91d8083deff6.png" 
+            src="/lovable-uploads/underwater.jpg" 
             alt="Aesthetic photo 3" 
             className="w-full h-56 object-cover rounded-lg"
           />
           <img 
-            src="/lovable-uploads/2ba21c2b-425d-458b-ac34-676a58145e73.png" 
+            src="/lovable-uploads/nightlife.jpg" 
             alt="Aesthetic photo 4" 
             className="w-full h-56 object-cover rounded-lg"
           />
@@ -35,19 +35,18 @@ const About = () => {
 
         <div className="space-y-6 text-gray-700">
           <p className="text-lg">
-            Hey there, I'm Your Name - an innovative Full Stack Developer, a creative thinker, and a passionate
-            student leader at GIAC. Welcome to my corner of the tech universe!
+            Hey there, I'm Nisarg Sathwara - an innovative AI-ML Developer, a creative thinker, and a passionate
+            student leader at GECM. Welcome to my corner of the tech universe!
           </p>
 
           <p className="text-lg">
-            From crafting seamless web experiences using Next.js and React to exploring the realms of AI integration, I
+            From crafting seamless web experiences using React to exploring the realms of AI integration, I
             thrive on merging creativity with technology. My mission is to build solutions that not only function
             flawlessly but also leave a lasting impression.
           </p>
 
           <p className="text-lg">
-            Beyond coding, I'm deeply inspired by user-centric design and storytelling. Whether it's shaping intuitive
-            UIs or writing content that informs and inspires, I'm driven to make an impact through thoughtful innovation.
+          Beyond coding, I'm constantly driven by a desire to explore and try new things—whether it's experimenting with creative ideas, diving into new technologies, or stepping out of my comfort zone to grow both personally and professionally.
           </p>
 
           <p className="text-lg">

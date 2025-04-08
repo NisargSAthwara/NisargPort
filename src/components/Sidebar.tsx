@@ -50,8 +50,8 @@ const Sidebar = () => {
   return (
     <aside className="w-64 min-h-screen bg-gray-50 border-r border-gray-200 fixed left-0 top-0 bottom-0">
       <Profile
-        name="Your Name"
-        role="Developer"
+        name="Nisarg Sathwara"
+        role="Ai-Ml-Engineer"
         imageUrl="/lovable-uploads/1c7468fd-56a3-410a-8ba4-20fa6281c289.png"
       />
 
@@ -91,15 +91,15 @@ const Sidebar = () => {
       <div className="px-4 py-6">
         <h3 className="text-sm font-medium text-gray-500 mb-3">Socials</h3>
         <div className="space-y-2">
-          <Link to="#" className="flex items-center gap-3 px-2 py-1 text-gray-500 hover:text-gray-900">
+          {/* <Link to="#" className="flex items-center gap-3 px-2 py-1 text-gray-500 hover:text-gray-900">
             <Twitter className="w-5 h-5" />
             <span>Twitter</span>
-          </Link>
-          <Link to="#" className="flex items-center gap-3 px-2 py-1 text-gray-500 hover:text-gray-900">
+          </Link> */}
+          <Link to="https://github.com/NisargSAthwara" target="_blank" className="flex items-center gap-3 px-2 py-1 text-gray-500 hover:text-gray-900">
             <Linkedin className="w-5 h-5" />
             <span>LinkedIn</span>
           </Link>
-          <Link to="#" className="flex items-center gap-3 px-2 py-1 text-gray-500 hover:text-gray-900">
+          <Link to="https://www.linkedin.com/in/nisargsathwara/" target="_blank" className="flex items-center gap-3 px-2 py-1 text-gray-500 hover:text-gray-900">
             <Github className="w-5 h-5" />
             <span>Github</span>
           </Link>
@@ -109,8 +109,7 @@ const Sidebar = () => {
       <div className="px-4 py-4 mt-10">
         <Link
           to="/resume"
-          className="flex items-center justify-center gap-2 bg-gray-900 text-white px-4 py-2 rounded-full text-sm hover:bg-gray-800 transition-colors"
-        >
+          className="flex items-center justify-center gap-2 bg-gray-900 text-white px-4 py-2 rounded-full text-sm hover:bg-gray-800 transition-colors">
           Read Resume
           <span className="ml-1">→</span>
         </Link>
