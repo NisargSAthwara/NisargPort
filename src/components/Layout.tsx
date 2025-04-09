@@ -17,7 +17,7 @@ const Layout = ({ children }: LayoutProps) => {
           </div>
         </main>
         <footer className="text-center text-gray-500 text-sm py-4 bg-white">
-          2025 — Built by Your Name
+          2025 — Built by Nisarg Sathwara
         </footer>
       </div>
     </div>

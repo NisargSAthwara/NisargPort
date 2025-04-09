@@ -5,34 +5,34 @@ import ProjectCard from "@/components/ProjectCard";
 const Projects = () => {
   const projects = [
     {
-      title: "SHOPCO - A Modern & Responsive E-commerce Platform",
-      description: "SHOP.CO is a premium e-commerce platform built during a hackathon, featuring a sleek, responsive design and smooth user experience. With high-quality product listings, a shopping cart, and a secure checkout process, this platform ensures an effortless online shopping experience.",
+      title: "AI vs Real - Image Classification Web App",
+      description: "AI vs Real is an intelligent image classification platform that detects whether an image is AI-generated or real. Built with deep learning and a modern UI, the app enables users to upload images and instantly get classification results using a trained convolutional neural network (CNN) model.",
       imageUrl: "/lovable-uploads/49bab6f1-576c-462c-870b-297fb1a309b0.png",
-      technologies: ["Next.js", "Tailwind CSS", "Sanity CMS", "Stripe"],
+      technologies: ["React", "TensorFlow", "CNN", "Vite"],
     },
     {
-      title: "Introducing Reasonable AI",
-      description: "Reasonable AI is a smart chatbot powered by Gemini 2.0 Flash, using iterative reasoning to refine responses in multiple steps. It analyzes queries, enhances prompts, and delivers highly accurate answers faster than standard AI chatbots.",
+      title: "IPL Match Win Predictor",
+      description: "IPL Match Win Predictor is a machine learning-based web app that forecasts the winning team of an IPL match based on live or pre-match data. Using team stats, venue history, toss outcome, and key performance indicators, the model delivers accurate and insightful predictions.",
       imageUrl: "/lovable-uploads/c0d7f362-69c3-46f1-b972-d238d0e09939.png",
-      technologies: ["Python", "Streamlit", "Gemini-2.0-flash"],
+      technologies: ["Python", "XGBoost", "React", "Pandas"],
     },
     {
-      title: "ShopKaro",
-      description: "ShopKaro provides a smooth shopping experience with effortless scrolling, secure COD checkout, and email notifications for order updates.",
+      title: "House Price Predictor",
+      description: "House Price Predictor is a data-driven web app that estimates property prices based on key features like location, area, number of rooms, and amenities. It uses a trained regression model to deliver accurate and real-time predictions for buyers and real estate professionals.",
       imageUrl: "/lovable-uploads/ea9efcd7-87db-4bfe-a5f3-69c07770eb02.png",
-      technologies: ["Next.JS", "TailwindCSS", "Sanity"],
+      technologies: ["Python", "Flask", "Regression"],
     },
     {
-      title: "Free Resume Builder",
-      description: "FreeResumeBuilder allows users to create professional resumes with customizable templates, instant preview, and free downloads.",
-      imageUrl: "/lovable-uploads/efb2cb6c-e9cd-4f52-9c6f-deb67567ce8d.png",
-      technologies: ["Next.JS", "TailwindCSS", "MongoDB"],
-    },
+        title: "Cloud Forecast - Weather Visualizer",
+        description: "Cloud Forecast is a lightweight React app that visualizes cloud cover and weather conditions using live API data. With a clean UI and real-time updates, users can check cloud forecasts for any location instantly—no backend required.",
+        imageUrl: "/lovable-uploads/ea9efcd7-87db-4bfe-a5f3-69c07770eb02.png", 
+        technologies: ["React", "Tailwind CSS", "OpenWeatherMap API"],
+    },  
     {
-      title: "Blogafay",
-      description: "Blogafay is a full-stack blog website with admin controls for post management and an interactive comment system for readers, hosted on Vercel for seamless performance.",
-      imageUrl: "/lovable-uploads/9561c7e8-0602-4193-9583-d7fa097e8890.png",
-      technologies: ["Next.JS", "TailwindCSS", "MongoDB"],
+        title: "SecureAuth Dashboard",
+        description: "SecureAuth Dashboard is a React-based authentication system designed for admin panels and dashboards. It features protected routes, role-based access control, and session management—all built without a backend for demo purposes.",
+        imageUrl: "/lovable-uploads/ea9efcd7-87db-4bfe-a5f3-69c07770eb02.png",
+        technologies: ["React", "CSS", "React Router", "Context API"],
     },
   ];
 
