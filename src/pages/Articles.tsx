@@ -7,19 +7,19 @@ const Articles = () => {
     {
       title: "The Rise of Artificial Intelligence: Shaping the Future",
       description: "Artificial Intelligence (AI) is transforming the way we live, work, and interact with technology. At its core, AI refers to the simulation of human intelligence in machines that are programmed to think, learn, and make decisions.",
-      imageUrl: "/lovable-uploads/1c7468fd-56a3-410a-8ba4-20fa6281c289.png",
+      imageUrl: "/lovable-uploads/articleAI.jpeg",
       tags: ["AI", "technology"],
     },
     {
       title: "Training a CNN with Keras: Image Classification Made Easy",
       description: "Dive into how convolutional neural networks work and build your first image classifier with Keras and TensorFlow.",
-      imageUrl: "/lovable-uploads/489b7e4e-3a5c-4b94-aac8-1f63d523e2d4.png",
+      imageUrl: "/lovable-uploads/articlecnn.jpeg",
       tags: ["technology", "TensorFlow","Deep Learning", "CNN"],
     },
     {
       title: "Integrating a Machine Learning Model into a React App 🚀",
       description: "How to run predictions from a trained model using a React frontend and Flask or FastAPI backend. 🧠 ✨",
-      imageUrl: "/lovable-uploads/1c7468fd-56a3-410a-8ba4-20fa6281c289.png",
+      imageUrl: "/lovable-uploads/articlereact.jpeg",
       tags: ["technology", "development", "API Integration"],
     },
   ];

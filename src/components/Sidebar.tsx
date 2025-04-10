@@ -95,11 +95,11 @@ const Sidebar = () => {
             <Twitter className="w-5 h-5" />
             <span>Twitter</span>
           </Link> */}
-          <Link to="https://github.com/NisargSAthwara" target="_blank" className="flex items-center gap-3 px-2 py-1 text-gray-500 hover:text-gray-900">
+          <Link to="https://www.linkedin.com/in/nisargsathwara/" target="_blank" className="flex items-center gap-3 px-2 py-1 text-gray-500 hover:text-gray-900">
             <Linkedin className="w-5 h-5" />
             <span>LinkedIn</span>
           </Link>
-          <Link to="https://www.linkedin.com/in/nisargsathwara/" target="_blank" className="flex items-center gap-3 px-2 py-1 text-gray-500 hover:text-gray-900">
+          <Link to="https://github.com/NisargSAthwara" target="_blank" className="flex items-center gap-3 px-2 py-1 text-gray-500 hover:text-gray-900">
             <Github className="w-5 h-5" />
             <span>Github</span>
           </Link>
