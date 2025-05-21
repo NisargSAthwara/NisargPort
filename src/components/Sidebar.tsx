@@ -51,8 +51,8 @@ const Sidebar = () => {
     <aside className="w-64 min-h-screen bg-gray-50 border-r border-gray-200 fixed left-0 top-0 bottom-0">
       <Profile
         name="Nisarg Sathwara"
-        role="Ai-Ml-Engineer"
-        imageUrl="/lovable-uploads/1c7468fd-56a3-410a-8ba4-20fa6281c289.png"
+        role="Ai-ML-Engineer"
+        imageUrl="public\lovable-uploads\210160107071_1-photoaidcom-cropped.jpeg"
       />
 
       <nav className="px-2 py-4">
