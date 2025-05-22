@@ -72,15 +72,15 @@ const Index = () => {
             <div className="text-gray-700">Html/CSS/Javascript</div>
             <div className="text-gray-700">PowerBi(Basic)</div>
             <div className="text-gray-700">Vercel</div>  */}
-            <img src="../public/lovable-uploads/Python.svg" alt="Python" className="h-8" />
-            <img src="../public/lovable-uploads/MySQL.svg" alt="MySQL" className="h-8" />
-            <img src="../public/lovable-uploads/React.svg" alt="React.js" className="h-8" />
-            <img src="../public/lovable-uploads/HTML5.svg" alt="HTML" className="h-8" />
-            <img src="../public/lovable-uploads/CSS3.svg" alt="CSS" className="h-8" />
-            <img src="../public/lovable-uploads/JavaScript.svg" alt="JavaScript" className="h-8" />
-            <img src="../public/lovable-uploads/Bootstrap.svg" alt="Bootstrap" className="h-8" />
-            <img src="../public/lovable-uploads/power-bi.svg" alt="Power Bi(Basic)" className="h-8" />
-            <img src="../public/lovable-uploads/vercel.svg" alt="Vercel" className="h-8" />
+            <img src="/lovable-uploads/Python.svg" alt="Python" className="h-8" />
+            <img src="/lovable-uploads/MySQL.svg" alt="MySQL" className="h-8" />
+            <img src="/lovable-uploads/React.svg" alt="React.js" className="h-8" />
+            <img src="/lovable-uploads/HTML5.svg" alt="HTML" className="h-8" />
+            <img src="/lovable-uploads/CSS3.svg" alt="CSS" className="h-8" />
+            <img src="/lovable-uploads/JavaScript.svg" alt="JavaScript" className="h-8" />
+            <img src="/lovable-uploads/Bootstrap.svg" alt="Bootstrap" className="h-8" />
+            <img src="/lovable-uploads/power-bi.svg" alt="Power Bi(Basic)" className="h-8" />
+            <img src="/lovable-uploads/Vercel.svg" alt="Vercel" className="h-8" />
           </div>
         </div>
       </section>

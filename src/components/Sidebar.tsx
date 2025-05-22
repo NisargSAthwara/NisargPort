@@ -52,7 +52,7 @@ const Sidebar = () => {
       <Profile
         name="Nisarg Sathwara"
         role="Ai-ML-Engineer"
-        imageUrl="public\lovable-uploads\210160107071_1-photoaidcom-cropped.jpeg"
+        imageUrl="/lovable-uploads/210160107071_1-photoaidcom-cropped.jpeg"
       />
 
       <nav className="px-2 py-4">
